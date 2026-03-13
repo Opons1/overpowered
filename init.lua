@@ -49,13 +49,6 @@ minetest.register_craft({
     replacements = {{"overpowered:block", "overpowered:block"}},
 })
 minetest.register_craft({
-    output = "overpowered:untreatedingot 2",
-    recipe = {
-        {"default:diamondblock", "default:mese"},
-        {"default:mese", "default:diamondblock"},
-    }
-})
-minetest.register_craft({
     output = "overpowered:block",
     recipe = {
         {"overpowered:ingot", "overpowered:ingot", "overpowered:ingot"},
